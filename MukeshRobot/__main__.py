@@ -435,8 +435,8 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                             text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ 🍹", url="
-                        t.me/noxiousxpro"
+                          text="ɢɪᴛʜᴜʙ 🍹", url="t.me/lundlelobsdk"
+                        ),
                         ),
                     ],
                     [
