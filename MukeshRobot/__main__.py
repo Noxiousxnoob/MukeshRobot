@@ -426,17 +426,18 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(
                             text="🏡 sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
-                        InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs 🍷", url=f"\x68\x74\x74\x70\x73\x3A\x2F\x2F\x74\x2E\x6D\x65\x2F\x6D\x75\x6B\x65\x73\x68\x62\x6F\x74\x7A\x6F\x6E\x65"
+                         InlineKeyboardButton(
+                            text="ᴜᴩᴅᴀᴛᴇs 🍷", url=f"t.me/lundlelobsdk"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
                             text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
                         ),
-                        InlineKeyboardButton(
-                          text="ɢɪᴛʜᴜʙ 🍹", url="t.me/lundlelobsdk"
+                         InlineKeyboardButton(
+                            text="ɢɪᴛʜᴜʙ 🍹", url="t.me/lundlelobsdk"
                         ),
+                    ],
                         ),
                     ],
                     [
