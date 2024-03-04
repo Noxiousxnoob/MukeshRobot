@@ -62,7 +62,7 @@ async def img_sampler(event):
         jit,
         limit=4,
         output_dir="store",
-        adult_filter_off=False,
+        adult_filter_off=True,
         force_replace=False,
         timeout=60,
     )
@@ -100,7 +100,7 @@ async def okgoogle(img):
         try:
             image = Image.open(photo)
         except OSError:
-            await dev.edit("`Unsupported sexuality, most likely.`")
+            await dev.edit("`supported sexuality, most likely.`")
             return
         name = "okgoogle.png"
         image.save(name, "PNG")
