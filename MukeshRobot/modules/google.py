@@ -63,7 +63,7 @@ async def img_sampler(event):
         limit=20,
         output_dir="store",
         adult_filter_off=True,
-        force_replace=True,
+        force_replace=False,
         timeout=60,
     )
     os.chdir(f'./store/"{query}"')
