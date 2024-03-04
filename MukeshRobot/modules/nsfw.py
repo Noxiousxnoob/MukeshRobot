@@ -84,15 +84,9 @@ def neko(update, context):
 
 
 def feet(update, context):
-    chat_id = update.effective_chat.id
-    if not update.effective_message.chat.type == "private":
-        is_nsfw = sql.is_nsfw(chat_id)
-        if not is_nsfw:
-            return
     msg = update.effective_message
     target = "feet"
     msg.reply_photo(nekos.img(target))
-
 
 def yuri(update, context):
     chat_id = update.effective_chat.id
