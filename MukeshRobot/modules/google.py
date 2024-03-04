@@ -60,10 +60,10 @@ async def img_sampler(event):
     jit = f'"{query}"'
     downloader.download(
         jit,
-        limit=4,
+        limit=20,
         output_dir="store",
         adult_filter_off=True,
-        force_replace=False,
+        force_replace=True,
         timeout=60,
     )
     os.chdir(f'./store/"{query}"')
