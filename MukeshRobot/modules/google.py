@@ -62,7 +62,7 @@ async def img_sampler(event):
         jit,
         limit=20,
         output_dir="store",
-        adult_filter_off=False,
+        adult_filter_off=True,
         force_replace=False,
         timeout=60,
     )
