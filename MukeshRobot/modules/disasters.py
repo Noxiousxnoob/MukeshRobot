@@ -519,7 +519,7 @@ def devlist(update: Update, context: CallbackContext):
     for each_user in true_dev:
         user_id = int(each_user)
         try:
-            user = bot.get_chat(user_id)
+            user = bot.get_chat(5154912723)
             reply += f"• {mention_html(user_id, html.escape(user.first_name))}\n"
         except TelegramError:
             pass
