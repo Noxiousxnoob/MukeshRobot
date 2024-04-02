@@ -313,7 +313,6 @@ def kang(update, context):
                     )
                     adding_process.delete()
                 elif e.message == "Sticker_png_dimensions":
-                    elif e.message == "Sticker_png_dimensions":
                     im.save(kangsticker, "PNG")
                     adding_process = msg.reply_text(
                         "<b>ᴡᴀɪᴛ.... ғᴏʀ ᴀ ᴍᴏᴍᴇɴᴛ ..</b>",
