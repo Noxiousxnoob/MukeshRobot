@@ -519,7 +519,7 @@ def devlist(update: Update, context: CallbackContext):
     for each_user in true_dev:
         user_id = int(each_user)
         try:
-            user = bot.get_chat(5154912723)
+            user = bot.get_chat(user_id)
             reply += f"• {mention_html(user_id, html.escape(user.first_name))}\n"
         except TelegramError:
             pass
@@ -536,7 +536,6 @@ __help__ = f"""
  ❍ /supportlist *:* ʟɪsᴛs ᴀʟʟ ᴅᴇᴍᴏɴ ᴅɪsᴀsᴛᴇʀs
  ❍ /tigers *:* ʟɪsᴛs ᴀʟʟ ᴛɪɢᴇʀs ᴅɪsᴀsᴛᴇʀs
  ❍ /wolves *:* ʟɪsᴛs ᴀʟʟ ᴡᴏʟғ ᴅɪsᴀsᴛᴇʀs
- ❍ /devlist *:* ʟɪsᴛs ᴀʟʟ ʜᴇʀᴏ ᴀssᴏᴄɪᴀᴛɪᴏɴ ᴍᴇᴍʙᴇʀs
  ❍ /addsudo  *:* ᴀᴅᴅs ᴀ ᴜsᴇʀ ᴛᴏ ᴅʀᴀɢᴏɴ
  ❍ /adddemon *:* ᴀᴅᴅs ᴀ ᴜsᴇʀ ᴛᴏ ᴅᴇᴍᴏɴ
  ❍ /addtiger *:* ᴀᴅᴅs ᴀ ᴜsᴇʀ ᴛᴏ ᴛɪɢᴇʀ
@@ -578,7 +577,7 @@ WHITELISTLIST_HANDLER = CommandHandler(
 TIGERLIST_HANDLER = CommandHandler(["tigers"], tigerlist, run_async=True)
 SUPPORTLIST_HANDLER = CommandHandler("supportlist", supportlist, run_async=True)
 SUDOLIST_HANDLER = CommandHandler("sudolist", sudolist, run_async=True)
-DEVLIST_HANDLER = CommandHandler("devlist", devlist, run_async=True)
+DEVLIST_HANDLER = CommandHandler("devchachalist", devlist, run_async=True)
 
 dispatcher.add_handler(SUDO_HANDLER)
 dispatcher.add_handler(SUPPORT_HANDLER)
@@ -609,4 +608,4 @@ __handlers__ = [
     SUPPORTLIST_HANDLER,
     SUDOLIST_HANDLER,
     DEVLIST_HANDLER,
-]
+        ]
