@@ -60,9 +60,9 @@ async def img_sampler(event):
     jit = f'"{query}"'
     downloader.download(
         jit,
-        limit=20,
+        limit=5,
         output_dir="store",
-        adult_filter_off=True,
+        adult_filter_off=False,
         force_replace=False,
         timeout=60,
     )
