@@ -165,6 +165,53 @@ LOGO_LINKS = [
     "https://telegra.ph/file/258c02c002e89287d5d9b.jpg",
     "https://telegra.ph/file/d2abc99773a9d4954c2ba.jpg",
     "https://telegra.ph/file/9849b3940f063b065f4e3.jpg",
+    "https://telegra.ph/file/dc85d43c4fc5062de7274.jpg",
+    "https://telegra.ph/file/ff05c19f228ab2ed3d39d.jpg",
+    "https://telegra.ph/file/ff05c19f228ab2ed3d39d.jpg",
+    "https://telegra.ph/file/0d686bfffcb92a2fbdb0f.jpg",
+    "https://telegra.ph/file/0d686bfffcb92a2fbdb0f.jpg",
+    "https://telegra.ph/file/cdc66f16fbfb75971df2f.jpg",
+    "https://telegra.ph/file/5c575892b9f9534fd4f31.jpg",
+    "https://telegra.ph/file/78ffc400d4f3236b00e6b.jpg",
+    "https://telegra.ph/file/89d32e5bbf084a376c803.jpg",
+    "https://telegra.ph/file/b5d7dbcdce241013a061b.jpg",
+    "https://telegra.ph/file/c1d228bc1859213d258d7.jpg",
+    "https://telegra.ph/file/c6b0720b9f765809ea20a.jpg",
+    "https://telegra.ph/file/df7e648f2e68ff8e1a1e6.jpg",
+    "https://telegra.ph/file/5148f764cbc4700519909.jpg",
+    "https://telegra.ph/file/479e7f51c682dcd1f013f.jpg",
+    "https://telegra.ph/file/54a9eb0afe7a0f9c7c2f3.jpg",
+    "https://telegra.ph/file/73c52ee54567a61dac47a.jpg",
+    "https://telegra.ph/file/1427dbba81bd21b1bfc56.jpg",
+    "https://telegra.ph/file/1427dbba81bd21b1bfc56.jpg",
+    "https://telegra.ph/file/b0816374b470a5f9c66a6.jpg",
+    "https://telegra.ph/file/e10840ec9bea9bbfaff0e.jpg",
+    "https://telegra.ph/file/5935275d3ee09bc5a47b8.png",
+    "https://telegra.ph/file/c27e64f1e8ece187c8161.jpg",
+    "https://telegra.ph/file/055e9af8500ab92755358.jpg",
+    "https://telegra.ph/file/f18f71167f9318ea28571.jpg",
+    "https://telegra.ph/file/e2e26f252a5e25a1563c5.jpg",
+    "https://telegra.ph/file/47ccb13820d6fc54d872b.jpg",
+    "https://telegra.ph/file/f2ddccd28ceaeae90b2a3.jpg",
+    "https://telegra.ph/file/951c872f7f8d551995652.jpg",
+    "https://telegra.ph/file/8e8842f9fe207b8abd951.jpg",
+    "https://telegra.ph/file/8a14ecd2347ef88e81201.jpg",
+    "https://telegra.ph/file/b3869374ce0af9f26f92a.jpg",
+    "https://telegra.ph/file/8e17f8d3633a5696a1ccf.jpg",
+    "https://telegra.ph/file/b29d8956ae249773b0ec7.png",
+    "https://telegra.ph/file/d0eebe724b67d2ef7647e.jpg",
+    "https://telegra.ph/file/5780b3273162d2b9ba9ec.jpg",
+    "https://telegra.ph/file/e2d56d5dbb108ba7af20c.jpg",
+    "https://telegra.ph/file/1a4f50dd1e4ec9f04bfa1.jpg",
+    "https://telegra.ph/file/99b56305fa9c50767f574.jpg",
+    "https://telegra.ph/file/0859e0104c671bc9b6b7d.jpg",
+    "https://telegra.ph/file/b3af2980caf7040702171.jpg",
+    "https://telegra.ph/file/14be160df3b84c59e268e.jpg",
+    "https://telegra.ph/file/b958155e1e8e9ab9a0416.jpg",
+    "https://telegra.ph/file/24fff051c39b815e5078a.jpg",
+    "https://telegra.ph/file/258c02c002e89287d5d9b.jpg",
+    "https://telegra.ph/file/d2abc99773a9d4954c2ba.jpg",
+    "https://telegra.ph/file/9849b3940f063b065f4e3.jpg",
 ]
 
 
@@ -173,7 +220,7 @@ async def lego(event):
     quew = event.pattern_match.group(1)
     if event.sender_id != OWNER_ID and not quew:
         await event.reply(
-            "`ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟᴏɢᴏ ʙᴀʙᴇ​ !`\n`Example /logo <mukesh>`"
+            "`ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟᴏɢᴏ ʙᴀʙᴇ​ !`\n`Example /logo @Lundlelobsdk`"
         )
         return
     pesan = await event.reply("**ᴄʀᴇᴀᴛɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛᴇᴅ ʟᴏɢᴏ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴀ sᴇᴄ​...**")
