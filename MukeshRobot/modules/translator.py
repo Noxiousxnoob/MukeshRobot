@@ -103,7 +103,7 @@ async def repo(client, message):
                     ),
                     InlineKeyboardButton(
                         "• ʀᴇᴘᴏ •",
-                        url="https://t.me/+UJC4seemOdViZTdl",
+                        url="https://t.me/noxbots",
                     ),
                 ]
             ]
